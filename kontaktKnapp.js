@@ -1,15 +1,18 @@
 function kontaktKnappfunction (){
     const kontaktKnapp = document.getElementById("Kontakt");
-const element = document.getElementById('div4Id');
+const andini_med_kaninid = document.getElementById('andini_med_kaninid');
 const Bor_du_i_Bergen = document.getElementById("Bor_du_i_Bergen?")
 const footer = document.getElementById("føler_meg_privilegertP")
 const TryllingID = document.getElementById("TryllingID")
 const element2 = document.getElementById("iframe")
 const telefon = document.getElementById("littImfo")
 const iframe = document.getElementById ("iframe")
-
+const ballonggjimgid = document.getElementById("ballonggjimgid")
 const Ballonggjøgling = document.getElementById ("Ballonggjøglingp")
-const Sukkerspinnmaskin = document.getElementById("SukkerspinnmaskinIDp")
+const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
+const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
+const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
+
 if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
     telefon .style.display = "block"
@@ -17,13 +20,16 @@ if (kontaktKnapp){
     iframe.style.opacity = 1
     Bor_du_i_Bergen.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
+    Ballonggjøglingh2.style.display = "none"
+
     footer.style.display = "none"
-    Sukkerspinnmaskin.style.display = "none"
+    SukkerspinnmaskinIDp.style.display = "none"
+    Sukkerspinnmaskin.style.display ="none"
     Ballonggjøgling.style.display = "none"
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     iframe.style.display = "block"
-    element.style.opacity = 1
+    andini_med_kaninid.style.display = "none"
    
     const num1 = "neren";
     const num2 = "anders";

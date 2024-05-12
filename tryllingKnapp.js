@@ -1,7 +1,7 @@
 function tryllingKnappFunction(){
     
 const tryllingKnapp = document.getElementById("Trylling");
-const element = document.getElementById('div4Id');
+const andini_med_kaninid = document.getElementById('andini_med_kaninid');
 const Bor_du_i_Bergen = document.getElementById("Bor_du_i_Bergen?")
 const footer = document.getElementById("føler_meg_privilegertP")
 const TrylleshowID = document.getElementById("TrylleshowID")
@@ -12,7 +12,10 @@ const pElement = document.getElementById ("pElement")
 const Trylleshow = document.getElementById("TrylleshowID")
 const TryllingID = document.getElementById("TryllingID")
 const Ballonggjøgling = document.getElementById("Ballonggjøglingp")
+const Ballonggjøglingh2 =document.getElementById("Ballonggjøglingh2")
 const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
+const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
+
 if (tryllingKnapp) {
     tryllingKnapp.addEventListener("click", function() {
             
@@ -21,6 +24,8 @@ if (tryllingKnapp) {
             Bor_du_i_Bergen.style.display="none";
             KontaktConteiner.style.display="none";
             SukkerspinnmaskinIDp.style.display= "none";
+            Sukkerspinnmaskin.style.display = "none"
+            Ballonggjøglingh2.style.display = "none"
             footer.style.opacity = 0;
             hvor_lenge_har_holt_poID.style.display="none";
             telefon.style.display="none";
@@ -33,7 +38,7 @@ if (tryllingKnapp) {
             Trylleshow.style.display="block";
             
             // header.style.display = "none"
-            element.style.opacity = 0;
+            andini_med_kaninid.style.display = "none";
             })
     };
 }

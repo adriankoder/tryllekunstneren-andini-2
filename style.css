@@ -87,7 +87,10 @@ h1, h1 {
     align-items: center;
 }
 
-
+.Sukkerspinnmaskin{
+    height: 360px;
+    width: auto;
+}
 
 header {
     display: flex;
@@ -137,6 +140,21 @@ h2
     justify-content: center;
     align-items: center;
     margin-top: 0px;
+
+}
+.Ballonggjøglingh2{
+    color: white;
+    text-shadow: blue 9px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ballonggj{
+    height: 300px;
+    width: auto;
+margin-top: -200px;
+border-radius: 50%;
 
 }
 .Ballonggjøgling{
