@@ -14,6 +14,7 @@ if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
     telefon .style.display = "block"
     TryllingID.style.display = "none";
+    iframe.style.opacity = 1
     Bor_du_i_Bergen.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
     footer.style.display = "none"
@@ -22,7 +23,7 @@ if (kontaktKnapp){
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     iframe.style.display = "block"
-    element.style.opacity = 0
+    element.style.opacity = 1
    
     const num1 = "neren";
     const num2 = "anders";
@@ -49,7 +50,8 @@ if (kontaktKnapp){
     pElement.style.display = "block"
 
     pElement.style.position = 'fixed'; // Fixed positioning keeps it in the same place even when scrolling
-pElement.style.zIndex = '1000'; // High z-index to ensure it appears on top
+    pElement.style.marginTop = "250px"
+    pElement.style.zIndex = '1000'; // High z-index to ensure it appears on top
 // pElement.style.left = '50%'; // Centering horizontally
 pElement.style.top = '10px';
     // Ensure this script runs after the HTML elements are parsed

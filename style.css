@@ -24,23 +24,16 @@ p { color: white;
     align-items: center;
 inline-size: 80%;}
 
-
-
-
-.Bor_du_i_BergenDiv{
+.Bor_du_i_Bergen{
     color: white;
     text-shadow: blue 9px 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-}
-.footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+
 }
+
 .TryllingClass{
     color: white;
     text-shadow: blue 9px 2px;
@@ -49,26 +42,18 @@ inline-size: 80%;}
     justify-content: center;
     align-items: center;
 }
-.TrylleshowDiv{
-    color: white;
-    text-shadow: blue 9px 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .andini {
     order: 1;
     font-size: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 5px;
     margin-bottom: 200px;
 }
 
-.hvor_lenge_har_holt_poClass {
+.hvor_lenge_har_holt_po {
     color: white;
     text-shadow: blue 9px 2px;
     display: flex;
@@ -106,9 +91,8 @@ h1, h1 {
 
 header {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    margin-right: 50px;
     margin-top: -450px;
 }
 
@@ -155,7 +139,7 @@ h2
     margin-top: 0px;
 
 }
-.BallonggjøglingClass{
+.Ballonggjøgling{
     color: white;
 text-shadow: blue 9px 2px;
     display: flex;
@@ -165,19 +149,6 @@ text-shadow: blue 9px 2px;
 }
 .hamburgerbutton{
 display: none;
-}
-@media screen and (max-width: 1024) {
-
-.oal_bilde{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-}
-
-.header {
-    display: none;
- }
 }
 @media screen and (max-width: 768px) {
     .button{
@@ -285,3 +256,18 @@ display: none;
 display: flex;
 flex-direction: column;
 justify-content: start;}
+
+/* @media screen and (min-width: 1024) {
+
+.oal_bilde{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+/* .iframe
+{display: none;} */
+/* .header {
+    display: none;
+ }
+} */
