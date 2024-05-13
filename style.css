@@ -168,6 +168,12 @@ text-shadow: blue 9px 2px;
 .hamburgerbutton{
 display: none;
 }
+.iframe{
+    border-radius: 50%;
+    width: 400px;
+    height: 200px;
+
+}
 @media screen and (max-width: 768px) {
     .button{
         display: none;
@@ -270,10 +276,10 @@ display: none;
 }
 
 
-.headerContent{
+/* .headerContent{
 display: flex;
 flex-direction: column;
-justify-content: start;}
+justify-content: start;} */
 
 /* @media screen and (min-width: 1024) {
 
