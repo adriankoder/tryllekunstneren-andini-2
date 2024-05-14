@@ -6,8 +6,13 @@
     }
     .hamburgerbutton{
     display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
     width: 32px;
     height: 32px;
+
     }
     .active
     {

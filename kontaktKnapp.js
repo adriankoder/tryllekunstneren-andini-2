@@ -13,6 +13,7 @@ const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
 
+
 if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
     telefon .style.display = "block"
@@ -20,11 +21,11 @@ if (kontaktKnapp){
     Bor_du_i_Bergen.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
     Ballonggjøglingh2.style.display = "none"
-
+    ballonggjimgid.style.opacity = "none"
     footer.style.display = "none"
     SukkerspinnmaskinIDp.style.display = "none"
     Sukkerspinnmaskin.style.display ="none"
-    Ballonggjøgling.style.display = "none"
+    Ballonggjøgling.style.opacity = 0
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     iframe.style.display = "block"
@@ -44,21 +45,17 @@ if (kontaktKnapp){
     const combined = kontakt+tegn+mellomroim+num2 + num3 + num4 + num6 + num5 + num1 + num7;
     
     // Oppretter et nytt <p> element
-    const pElement = document.createElement("p");
+    // const pElement = document.createElement("p");
     
     // Setter innholdet til den kombinerte strengen
     pElement.textContent = combined;
     
     // Legger <p> elementet til i body av dokumentet
-    document.body.appendChild(pElement);
-
-    pElement.style.display = "block"
-
-    pElement.style.position = 'fixed'; // Fixed positioning keeps it in the same place even when scrolling
-    pElement.style.marginTop = "250px"
+    // document.body.appendChild(pElement);
     pElement.style.zIndex = '1000'; // High z-index to ensure it appears on top
 // pElement.style.left = '50%'; // Centering horizontally
-pElement.style.top = '10px';
+pElement.style.top = '60px';
+pElement.style.display = "block"
     // Ensure this script runs after the HTML elements are parsed
 // document.addEventListener('DOMContentLoaded', function() {
 //     // Assuming pElement should reference an existing <p> element in the document

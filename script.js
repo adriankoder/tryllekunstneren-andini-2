@@ -58,7 +58,7 @@ hamburgerimg.addEventListener("click", function(){
 });
 console.log(teamswitshbutton)
 teamswitshbutton.addEventListener("click", function(){
-    teamswitshfunction("Light","DarkMode")
+    teamswitshfunction("light","darkMode")
 })
 // Import av funksjoner
 import { tryllingKnappFunction } from "../tryllingKnapp.js";

@@ -23,7 +23,7 @@ if (Balonggjøgling)
         // Ballonggjøgling.style.display =="block" 
         Ballonggjøglingph2.style.display = "block";
         Ballonggjøglingp.style.display = "block";
-        ballonggjimgid.style.display ="block"
+        ballonggjimgid.style.display = "block"
         TrylleshowID.style.display = "none" ;
         TrylleshowID.style.display = "none";
         Ballonggjøglingh2.style.display = "block"
@@ -38,7 +38,7 @@ if (Balonggjøgling)
         SukkerspinnmaskinIDp.style.display = "none"
         telefon.style.display = "none"
         TryllingID.style.display = "none"
-        iframe.style.display = "none"
+        iframe.style.opacity = 0
         andini_med_kaninid.style.opacity = 0
         // pElement.style.display ="none"
 

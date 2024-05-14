@@ -30,7 +30,7 @@ if (hovedsideKnapp) {
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøglingh2.style.display = "none"
         KontaktConteiner.style.display = "none"
-        ballonggjimgid.style.display ="none"
+        ballonggjimgid.style.display = "none"
         TryllingID.style.display ="none"
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøgling.style.display = "none"

@@ -28,7 +28,7 @@ if(sukkerspinnKnapp){
         footer.style.display = "none"
         hvor_lenge_har_holt_poID.style.display = "none"
         andini_med_kaninid.style.opacity = 0
-        iframe.style.display = "none"
+        iframe.style.display = 0
         telefon.style.display ="none"
         // pElement.style.display ="none"
         SukkerspinnmaskinH2.style.display = "none"
