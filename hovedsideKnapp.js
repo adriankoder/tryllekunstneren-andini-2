@@ -14,19 +14,21 @@ const TryllingID = document.getElementById("TryllingID")
 const ballonggjimgid = document.getElementById("ballonggjimgid")
 const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
+const SukkerspinnmaskinH2 = document.getElementById("SukkerspinnmaskinH2")
 
 
 if (hovedsideKnapp) {
     hovedsideKnapp.addEventListener("click", function() {
        
                 // .style.display = "block" // Gjør elementet usynlig
-        iframe.style.display = "block";
+        iframe.style.opacity = 1;
         andini_med_kaninid.style.opacity = 1
         Bor_du_i_Bergen.style.display = "block"
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"
         TrylleshowID.style.display = "none";
         SukkerspinnmaskinIDp.style.display = "none"
+        SukkerspinnmaskinH2.style.display = "none"
         Sukkerspinnmaskin.style.display = "none"
         Ballonggjøglingh2.style.display = "none"
         KontaktConteiner.style.display = "none"

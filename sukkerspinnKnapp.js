@@ -31,7 +31,7 @@ if(sukkerspinnKnapp){
         iframe.style.display = 0
         telefon.style.display ="none"
         // pElement.style.display ="none"
-        SukkerspinnmaskinH2.style.display = "none"
+        SukkerspinnmaskinH2.style.display = "block"
         SukkerspinnmaskinIDp.style.display = "block"
         Sukkerspinnmaskin.style.display = "block"
 

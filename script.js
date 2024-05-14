@@ -20,7 +20,7 @@ const Sukkerspinnmaskinp = document.getElementById("SukkerspinnmaskinIDp");
 const footer = document.getElementById("føler_meg_privilegertP");
 const ballonggjimgid = document.getElementById("ballonggjimgid"); // Riktig ID her
 const teamswitshbutton = document.querySelector ("#teamswitsh")
-
+const SukkerspinnmaskinH2 = document.getElementById("SukkerspinnmaskinH2") 
 
 //get a element from html
 //add a addventlicner
@@ -44,7 +44,7 @@ Sukkerspinnmaskinp.style.display = "none";
 Ballonggjøgling.style.display = "none";
 Ballonggjøglingh2.style.display = "none";
 Sukkerspinnmaskin.style.display = "none"
-
+SukkerspinnmaskinH2.style.display = "none"
 footer.style.display = "block";
 Bor_du_i_Bergen.style.display = "block";
 hvor_lenge_har_holt_poID.style.display = "block";

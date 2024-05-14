@@ -16,12 +16,12 @@ const Ballonggjøglingh2 =document.getElementById("Ballonggjøglingh2")
 const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 const ballonggjimgid = document.getElementById("ballonggjimgid")
-
+const SukkerspinnmaskinH2 = document.getElementById ("SukkerspinnmaskinH2")
 
 if (tryllingKnapp) {
     tryllingKnapp.addEventListener("click", function() {
             
-          
+            SukkerspinnmaskinH2.style.display = "none"
             ballonggjimgid.style.display = "none"
             Bor_du_i_Bergen.style.display="none";
             KontaktConteiner.style.display="none";

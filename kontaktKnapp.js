@@ -12,13 +12,14 @@ const Ballonggjøgling = document.getElementById ("Ballonggjøglingp")
 const SukkerspinnmaskinIDp = document.getElementById("SukkerspinnmaskinIDp")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
 const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2")
-
+const SukkerspinnmaskinH2 = document.getElementById("SukkerspinnmaskinH2")
 
 if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
     telefon .style.display = "block"
-    TryllingID.style.display = "none";
+    TryllingID.style.display = "none"
     Bor_du_i_Bergen.style.display = "none"
+    SukkerspinnmaskinH2.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
     Ballonggjøglingh2.style.display = "none"
     ballonggjimgid.style.opacity = "none"

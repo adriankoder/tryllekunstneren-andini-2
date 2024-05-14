@@ -17,14 +17,15 @@ const Ballonggjøglingp = document.getElementById("Ballonggjøglingp")
 const hvor_lenge_har_holt_poID = document.getElementById("hvor_lenge_har_holt_poID")
 const ballonggjimgid =document.getElementById("ballonggjimgid")
 const Sukkerspinnmaskin = document.getElementById("Sukkerspinnmaskin")
-
+const SukkerspinnmaskinH2 = document.getElementById("SukkerspinnmaskinH2")
 if (Balonggjøgling)
     Balonggjøgling.addEventListener("click", function() {
         // Ballonggjøgling.style.display =="block" 
         Ballonggjøglingph2.style.display = "block";
         Ballonggjøglingp.style.display = "block";
         ballonggjimgid.style.display = "block"
-        TrylleshowID.style.display = "none" ;
+        TrylleshowID.style.display = "none"
+        SukkerspinnmaskinH2.style.display = "none"
         TrylleshowID.style.display = "none";
         Ballonggjøglingh2.style.display = "block"
         Sukkerspinnmaskin.style.display = "none"
