@@ -17,7 +17,6 @@ if (kontaktKnapp){
     kontaktKnapp.addEventListener("click", function() {
     telefon .style.display = "block"
     TryllingID.style.display = "none";
-    iframe.style.opacity = 1
     Bor_du_i_Bergen.style.display = "none"
     hvor_lenge_har_holt_poID.style.display = "none"
     Ballonggjøglingh2.style.display = "none"
@@ -29,7 +28,7 @@ if (kontaktKnapp){
     // KontaktIfo2.style.display = "block"
     KontaktConteiner.style.display = "block"
     iframe.style.display = "block"
-    andini_med_kaninid.style.display = "none"
+    andini_med_kaninid.opacity = 0
    
     const num1 = "neren";
     const num2 = "anders";

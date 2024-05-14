@@ -20,8 +20,8 @@ if (hovedsideKnapp) {
     hovedsideKnapp.addEventListener("click", function() {
        
                 // .style.display = "block" // Gjør elementet usynlig
-        iframe.style.opacity = 1;
-        andini_med_kaninid.style.display = "block";
+        iframe.style.display = "block";
+        andini_med_kaninid.style.opacity = 1
         Bor_du_i_Bergen.style.display = "block"
         hvor_lenge_har_holt_poID.style.display = "block"
         føler_meg_privilegertP.style.display = "block"

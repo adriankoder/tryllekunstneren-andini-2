@@ -33,12 +33,12 @@ if (tryllingKnapp) {
             TryllingID.style.display="block";
             //KontaktIfo2.style.display = "none"
             Ballonggjøgling.style.display="none";
-            iframe.style.opacity = 0
+            iframe.style.display = "block"
             // pElement.style.display ="none"
             Trylleshow.style.display="block";
             
             // header.style.display = "none"
-            andini_med_kaninid.style.display = "none";
+            andini_med_kaninid.style.opacity = 1
             })
     };
 }

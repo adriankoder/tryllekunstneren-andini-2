@@ -19,10 +19,21 @@ const Ballonggjøglingh2 = document.getElementById("Ballonggjøglingh2");
 const Sukkerspinnmaskinp = document.getElementById("SukkerspinnmaskinIDp");
 const footer = document.getElementById("føler_meg_privilegertP");
 const ballonggjimgid = document.getElementById("ballonggjimgid"); // Riktig ID her
+const teamswitshbutton = document.querySelector ("#teamswitsh")
+
+
+//get a element from html
+//add a addventlicner
+
+
+
+
+
 
 
 // Setter display-stil på de ulike elementene
-andini_med_kaninid.style.display = "block";
+andini_med_kaninid.style.opacity = 1
+iframe.style.display = "block"
 KontaktIfo2.style.display = "none";
 KontaktConteiner.style.display = "none"; // Sjekk om dette er korrekt ID
 telefon.style.display = "none";
@@ -45,7 +56,10 @@ console.log(hamburgerimg);
 hamburgerimg.addEventListener("click", function(){
     hamburgertoggle("active","hidden");
 });
-
+console.log(teamswitshbutton)
+teamswitshbutton.addEventListener("click", function(){
+    teamswitshfunction("Light","DarkMode")
+})
 // Import av funksjoner
 import { tryllingKnappFunction } from "../tryllingKnapp.js";
 import { BalonggjøglingFunction } from "../Balonggjøgling.js";
@@ -53,10 +67,11 @@ import { hovedsideKnappfunction } from "../hovedsideKnapp.js";
 import { kontaktKnappfunction } from "../kontaktKnapp.js";
 import { sukkerspinnKnappFunction } from "../sukkerspinnKnapp.js";
 import { hamburgertoggle } from "../hamburgermeny.js";
-
+import {teamswitshfunction} from "./teamswitshtoggle.js"
 // Kall på funksjoner
 BalonggjøglingFunction();
 hovedsideKnappfunction();
 kontaktKnappfunction();
 sukkerspinnKnappFunction();
 tryllingKnappFunction();
+teamswitshfunction();

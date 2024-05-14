@@ -38,8 +38,8 @@ if (Balonggjøgling)
         SukkerspinnmaskinIDp.style.display = "none"
         telefon.style.display = "none"
         TryllingID.style.display = "none"
-        iframe.style.opacity = 0
-        andini_med_kaninid.style.display = "none"
+        iframe.style.display = "none"
+        andini_med_kaninid.style.opacity = 0
         // pElement.style.display ="none"
 
         // Ballonggjøgling.style.display = "block"
